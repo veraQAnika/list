@@ -10,6 +10,7 @@ public class MenuItemsPage {
     private static final String priceCSS = "span.current-price";
     private static final String itemsCSS = "li.isp_grid_product.quick";
     private static final String sortingCSS = "span#sorting_chosen_name";
+    private static final String nextPageCSS = "li.page-item.next";
 
     @FindBy(css = imgCSS)
     public List<WebElement> itemsImg;
@@ -25,4 +26,7 @@ public class MenuItemsPage {
 
     @FindBy(css = imgCSS)
     public WebElement oneImage;
+
+    @FindBy(css = nextPageCSS)
+    public WebElement nextPage;
 }

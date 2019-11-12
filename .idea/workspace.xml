@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fbaa4e2-488b-45da-8baa-bb1a37ba773e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,23 +19,23 @@
       <usages-collector id="statistics.lifecycle.project">
         <counts>
           <entry key="project.closed" value="1" />
-          <entry key="project.open.time.1" value="1" />
+          <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.24" value="1" />
-          <entry key="project.opened" value="3" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="8247" />
+          <entry key="java" value="8427" />
           <entry key="properties" value="35" />
           <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="8261" />
+          <entry key="JAVA" value="8441" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="35" />
           <entry key="XML" value="14" />
@@ -72,7 +72,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
+            <state relative-caret-position="480">
               <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -90,20 +90,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="780">
-              <caret line="71" column="43" selection-start-line="70" selection-start-column="8" selection-end-line="71" selection-end-column="43" />
+            <state relative-caret-position="326">
+              <caret line="359" column="14" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="20" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -112,10 +103,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1065">
+              <caret line="71" column="43" selection-start-line="70" selection-start-column="8" selection-end-line="71" selection-end-column="43" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
+            <state relative-caret-position="634">
+              <caret line="298" column="49" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,7 +138,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="225">
               <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -147,8 +150,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
+            <state relative-caret-position="120">
+              <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,8 +162,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="10" column="69" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="69" />
+            <state relative-caret-position="450">
+              <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -171,7 +174,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
+            <state relative-caret-position="195">
               <caret line="13" column="95" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="95" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -209,8 +212,6 @@
         <option value="$PROJECT_DIR$/src/test/java/pages/ItemDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/sampleTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/BasePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ChackoutPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java" />
@@ -218,6 +219,8 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" />
       </list>
     </option>
   </component>
@@ -249,35 +252,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -285,19 +290,31 @@
             </path>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
-              <item name="list" type="462c0819:PsiDirectoryNode" />
-              <item name="target" type="462c0819:PsiDirectoryNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="TestHelpers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573582103722" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1573588723373" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -360,7 +377,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ItemCheckoutAsGuestTest.homeItemCheckoutGuestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LIST_TEST" />
       <extension name="coverage">
         <pattern>
@@ -370,7 +387,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="CriticalFlowsTest" />
       <option name="MAIN_CLASS_NAME" value="CriticalFlowsTest.ItemCheckoutAsGuestTest" />
-      <option name="METHOD_NAME" value="newInItemCheckoutGuestTest" />
+      <option name="METHOD_NAME" value="homeItemCheckoutGuestTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -394,7 +411,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuImagesCheckTest.AccessoriesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuImagesCheckTest.NewInTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LIST_TEST" />
       <extension name="coverage">
         <pattern>
@@ -404,7 +421,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="CriticalFlowsTest" />
       <option name="MAIN_CLASS_NAME" value="CriticalFlowsTest.MenuImagesCheckTest" />
-      <option name="METHOD_NAME" value="AccessoriesTest" />
+      <option name="METHOD_NAME" value="NewInTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -414,18 +431,18 @@
     </configuration>
     <list>
       <item itemvalue="TestNG.MenuImagesCheckTest" />
-      <item itemvalue="TestNG.MenuImagesCheckTest.AccessoriesTest" />
-      <item itemvalue="TestNG.ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" />
       <item itemvalue="TestNG.ItemCheckoutAsGuestTest.clothingItemCheckoutGuestTest" />
       <item itemvalue="TestNG.ItemCheckoutAsGuestTest" />
+      <item itemvalue="TestNG.ItemCheckoutAsGuestTest.homeItemCheckoutGuestTest" />
+      <item itemvalue="TestNG.MenuImagesCheckTest.NewInTest" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.MenuImagesCheckTest" />
+        <item itemvalue="TestNG.MenuImagesCheckTest.NewInTest" />
+        <item itemvalue="TestNG.ItemCheckoutAsGuestTest.homeItemCheckoutGuestTest" />
         <item itemvalue="TestNG.ItemCheckoutAsGuestTest" />
         <item itemvalue="TestNG.ItemCheckoutAsGuestTest.clothingItemCheckoutGuestTest" />
-        <item itemvalue="TestNG.ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" />
-        <item itemvalue="TestNG.MenuImagesCheckTest.AccessoriesTest" />
       </list>
     </recent_temporary>
   </component>
@@ -443,18 +460,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="ItemCheckoutAsGuestTest_newInItemCheckoutGuestTest - 2019.11.07 at 09h 00m 14s.xml">
-      <configuration name="ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ItemCheckoutAsGuestTest_newInItemCheckoutGuestTest - 2019.11.07 at 09h 01m 13s.xml">
-      <configuration name="ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ItemCheckoutAsGuestTest_newInItemCheckoutGuestTest - 2019.11.07 at 09h 01m 53s.xml">
-      <configuration name="ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="ItemCheckoutAsGuestTest_newInItemCheckoutGuestTest - 2019.11.07 at 09h 07m 33s.xml">
-      <configuration name="ItemCheckoutAsGuestTest.newInItemCheckoutGuestTest" configurationId="TestNG" />
-    </history-entry>
     <history-entry file="ItemCheckoutAsGuestTest_clothingItemCheckoutGuestTest - 2019.11.07 at 09h 09m 28s.xml">
       <configuration name="ItemCheckoutAsGuestTest.clothingItemCheckoutGuestTest" configurationId="TestNG" />
     </history-entry>
@@ -473,12 +478,23 @@
     <history-entry file="ItemCheckoutAsGuestTest - 2019.11.07 at 09h 35m 10s.xml">
       <configuration name="ItemCheckoutAsGuestTest" configurationId="TestNG" />
     </history-entry>
+    <history-entry file="MenuImagesCheckTest - 2019.11.12 at 22h 07m 29s.xml">
+      <configuration name="MenuImagesCheckTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuImagesCheckTest - 2019.11.12 at 22h 13m 02s.xml">
+      <configuration name="MenuImagesCheckTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ItemCheckoutAsGuestTest_homeItemCheckoutGuestTest - 2019.11.12 at 23h 14m 48s.xml">
+      <configuration name="ItemCheckoutAsGuestTest.homeItemCheckoutGuestTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="MenuImagesCheckTest_NewInTest - 2019.11.12 at 23h 50m 59s.xml">
+      <configuration name="MenuImagesCheckTest.NewInTest" configurationId="TestNG" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26037195" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2639485" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -487,7 +503,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32771084" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.35421687" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -717,7 +733,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
+        <state relative-caret-position="480">
           <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -734,18 +750,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="780">
+        <state relative-caret-position="1065">
           <caret line="71" column="43" selection-start-line="70" selection-start-column="8" selection-end-line="71" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="39" column="39" selection-start-line="39" selection-start-column="39" selection-end-line="39" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -761,28 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="225">
           <caret line="15" column="32" selection-start-line="15" selection-start-column="32" selection-end-line="15" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="28" column="97" selection-start-line="28" selection-start-column="97" selection-end-line="28" selection-end-column="97" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="10" column="69" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="69" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -791,8 +777,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
+        <state relative-caret-position="195">
           <caret line="13" column="95" selection-start-line="13" selection-start-column="87" selection-end-line="13" selection-end-column="95" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" column="31" selection-start-line="30" selection-start-column="31" selection-end-line="30" selection-end-column="31" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -801,8 +797,31 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
+        <state relative-caret-position="326">
+          <caret line="359" column="14" selection-start-line="359" selection-start-column="8" selection-end-line="359" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="23" selection-start-line="8" selection-start-column="23" selection-end-line="8" selection-end-column="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="634">
+          <caret line="298" column="49" selection-start-line="298" selection-start-column="49" selection-end-line="298" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

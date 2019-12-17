@@ -38,15 +38,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.newInMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -65,15 +69,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.clothingMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -92,15 +100,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.shoesMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -119,15 +131,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.bagsMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -146,15 +162,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.accessoriesMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -173,15 +193,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.vintageMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -200,15 +224,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.jewelryMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -227,15 +255,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.watchesMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -254,15 +286,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.homeMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems
@@ -281,15 +317,19 @@ public class MenuImagesCheckTest extends BaseTest {
         clickElement(basePage.saleMenu);
         for(int i = 0; i < 5; i++ ) {
             menuItemsPage = PageFactory.initElements(driver, MenuItemsPage.class);
-            wait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.oneImage));
             List<WebElement> menuItems = menuItemsPage.itemsList;
             List<WebElement> itemsImg = menuItemsPage.itemsImg;
             Assert.isTrue(menuItems.size() > 0 && menuItems.size() == itemsImg.size(), "Items count is - " + menuItems.size() + "and item image count is - " + itemsImg.size());
             for (WebElement el : itemsImg
             ) {
-                String src = el.getAttribute("src");
-                if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
-                    badItems.add(el.getAttribute("isp_product_id"));
+                try {
+                    String src = el.getAttribute("src");
+                    if (src.contains("image.jpg") || src.contains("thumbnail.jpg")) {
+                        badItems.add(el.getAttribute("isp_product_id"));
+                    }
+                }catch (Exception ex){
+                    badItems.add(" Element not found, ");
                 }
             }
             for (String prodID : badItems

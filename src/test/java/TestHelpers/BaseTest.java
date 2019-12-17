@@ -25,9 +25,11 @@ public class BaseTest {
     public static WebDriver driver;
     public static WebDriverWait wait;
     public static WebDriverWait longWait;
+    public static WebDriverWait performanceWait;
 
     private static long waitTime = 20;
     private static long longWaitTime = 40;
+    private static long performanceWaitTime = 120;
 
     @BeforeTest
     public static void beforeTest() throws Exception {
@@ -67,6 +69,7 @@ public class BaseTest {
 
         longWait = new WebDriverWait(driver, longWaitTime);
         wait = new WebDriverWait(driver, waitTime);
+        performanceWait = new WebDriverWait(driver, performanceWaitTime);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.cssSelector("button.action.allow.primary")));
         WebElement cookyBtn = driver.findElement(By.cssSelector("button.action.allow.primary"));
         HelpMethods.clickElement(cookyBtn);

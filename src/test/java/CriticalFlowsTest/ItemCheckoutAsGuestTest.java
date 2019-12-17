@@ -58,24 +58,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-                 ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -96,24 +81,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -134,24 +104,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -172,24 +127,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -209,24 +149,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -247,24 +172,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -285,24 +195,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -322,24 +217,10 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
+        openDetailsPage(itemDetailPage.itemImage, productID);
         String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -360,24 +241,9 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
@@ -397,27 +263,13 @@ public class ItemCheckoutAsGuestTest extends BaseTest {
         clickElement(selectedIMG);
 
         itemDetailPage = PageFactory.initElements(driver, ItemDetailsPage.class);
-        wait.until(ExpectedConditions.visibilityOf(itemDetailPage.itemImage));
-        String src = itemDetailPage.itemImage.getAttribute("src");
-        if(src.contains("image.jpg") || src.contains("thumbnail.jpg")){
-            badItems.add(productID);
-        }
-        Assert.assertTrue(result.isEmpty(), "ProductID list for New In item with bad Imange in details page  is - " + result);
-
-        if(elementExistByCSS(ItemDetailsPage.sizeListCSS)){
-            clickElement(itemDetailPage.sizeBox);
-            for (WebElement el: itemDetailPage.allSizes
-            ) {
-                if(!el.getAttribute("class").contains("disabled")){
-                    clickElement(el);
-                    break;
-                }
-            }
-            Assert.assertTrue(!itemDetailPage.sizeBox.getText().contains("Select Size"), "There is no available size for selected item - productID - " + productID);
-        }
+        openDetailsPage(itemDetailPage.itemImage, productID);
+        badImageCheck(itemDetailPage.itemImage, productID);
+        selectProductSize(itemDetailPage, productID);
         clickElement(itemDetailPage.buyNowBtn);
         checkoutPage = PageFactory.initElements(driver, CheckoutPage.class);
         wait.until(ExpectedConditions.elementToBeClickable(checkoutPage.proceedToPayment));
     }
+
 
 }

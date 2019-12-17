@@ -13,6 +13,7 @@ public class ItemDetailsPage {
     public static final String sizeListCSS = "span#select-swatch-option";
     private static final String sizeDisabledCSS = "div.swatch-option.text.options-padd.disabled";
     private static final String sizesCSS = "div.swatch-option.text.options-padd";
+    public static final String pnfCSS = "div.page-not-found";
 
     @FindBy(css = buyNowCSS)
     public WebElement buyNowBtn;
@@ -34,4 +35,7 @@ public class ItemDetailsPage {
 
     @FindBy(css = sizesCSS)
     public List<WebElement> allSizes;
+
+    @FindBy(css = pnfCSS)
+    public WebElement pageNotFound;
 }

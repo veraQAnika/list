@@ -30,7 +30,7 @@ public class MainHelpers {
     }};
     public static final String mobileDv = "mobile";
     public static final String DRIVER_LOCATION = "src/main/resources/";
-    public static final String DEFAULT_BROWSER = safariBr;//chromeBr;//safariBr;//chromeBr;
+    public static final String DEFAULT_BROWSER = chromeBr;//safariBr;//chromeBr;
     public static final String GC_SYS_PROPERTY = "webdriver.chrome.driver";
     private static final String DRIVER_WIN_EXT = ".exe";
     private static final String CHROME_DIRVER = "chromedriver";

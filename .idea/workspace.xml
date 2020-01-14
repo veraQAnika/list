@@ -2,24 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5fbaa4e2-488b-45da-8baa-bb1a37ba773e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/WebPerformancePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/plpCurrencyCheckTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/PerformanceTest/LandingPagePerformanceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/TestHelpers/BasePerformanceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/ItemDetailsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/ItemDetailsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/pages/MenuItemsPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pages/MenuItemsPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CriticalFlowsTest/ItemCheckoutAsGuestTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CriticalFlowsTest/ItemCheckoutAsGuestTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/CriticalFlowsTest/MenuImagesCheckTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/CriticalFlowsTest/MenuImagesCheckTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestHelpers/BaseTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestHelpers/BaseTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestHelpers/HelpMethods.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestHelpers/HelpMethods.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -40,20 +26,21 @@
           <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.24" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="1" />
-          <entry key="java" value="10989" />
+          <entry key="java" value="11055" />
           <entry key="properties" value="35" />
           <entry key="xml" value="28" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="11003" />
+          <entry key="JAVA" value="11069" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="35" />
           <entry key="XML" value="14" />
@@ -62,7 +49,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="10" />
-          <entry key="java" value="40" />
+          <entry key="java" value="42" />
           <entry key="properties" value="1" />
           <entry key="xml" value="2" />
         </counts>
@@ -70,7 +57,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="10" />
-          <entry key="JAVA" value="40" />
+          <entry key="JAVA" value="42" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="2" />
         </counts>
@@ -91,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="184">
-              <caret line="21" selection-start-line="21" selection-end-line="21" />
+              <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -99,10 +86,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest/LandingPagePerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="247">
+            <state relative-caret-position="540">
               <caret line="43" selection-start-line="43" selection-end-line="43" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -114,8 +101,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="35" />
+            <state relative-caret-position="240">
+              <caret line="35" column="23" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="35" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -132,11 +119,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="183" selection-start-line="183" selection-end-line="183" />
+            <state relative-caret-position="303">
+              <caret line="347" column="96" selection-start-line="347" selection-start-column="96" selection-end-line="347" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -145,10 +132,36 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="140">
+              <caret line="65" selection-start-line="65" selection-end-line="65" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#892#893#0" expanded="true" />
+                <element signature="e#967#968#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="63" column="35" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="35" />
+            <state relative-caret-position="388">
+              <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -159,7 +172,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="318">
+            <state relative-caret-position="465">
               <caret line="63" selection-start-line="63" selection-end-line="63" />
             </state>
           </provider>
@@ -168,7 +181,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BasePerformanceTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
+            <state relative-caret-position="315">
               <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
             </state>
           </provider>
@@ -208,15 +221,15 @@
         <option value="$PROJECT_DIR$/src/main/java/pages/CheckoutPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java" />
-        <option value="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" />
-        <option value="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/WebPageTestPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java" />
         <option value="$PROJECT_DIR$/src/main/java/pages/WebPerformancePage.java" />
-        <option value="$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestHelpers/BasePerformanceTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/PerformanceTest/LandingPagePerformanceTest.java" />
+        <option value="$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java" />
       </list>
     </option>
   </component>
@@ -238,7 +251,7 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" fullScreen="true">
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
@@ -248,7 +261,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -273,6 +288,14 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
+              <item name="LIST_TEST" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="testgothelist" type="b2602c69:ProjectViewProjectNode" />
@@ -334,12 +357,10 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1576611863187" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1579027617813" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
@@ -368,7 +389,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.LandingPagePerformanceTest.landingPagePerformanceTest">
+  <component name="RunManager" selected="TestNG.MenuImagesCheckTest">
     <configuration name="ItemCheckoutAsGuestTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LIST_TEST" />
       <extension name="coverage">
@@ -419,7 +440,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuImagesCheckTest.AccessoriesTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuImagesCheckTest.AccessoriesTest (1)" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LIST_TEST" />
       <extension name="coverage">
         <pattern>
@@ -431,13 +452,14 @@
       <option name="MAIN_CLASS_NAME" value="CriticalFlowsTest.MenuImagesCheckTest" />
       <option name="METHOD_NAME" value="AccessoriesTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MenuImagesCheckTest.NewInTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MenuImagesCheckTest.JewelryTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="LIST_TEST" />
       <extension name="coverage">
         <pattern>
@@ -447,8 +469,9 @@
       </extension>
       <option name="PACKAGE_NAME" value="CriticalFlowsTest" />
       <option name="MAIN_CLASS_NAME" value="CriticalFlowsTest.MenuImagesCheckTest" />
-      <option name="METHOD_NAME" value="NewInTest" />
+      <option name="METHOD_NAME" value="JewelryTest" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PARAMETERS" value="0" />
       <properties />
       <listeners />
       <method v="2">
@@ -458,17 +481,17 @@
     <list>
       <item itemvalue="TestNG.MenuImagesCheckTest" />
       <item itemvalue="TestNG.ItemCheckoutAsGuestTest" />
-      <item itemvalue="TestNG.MenuImagesCheckTest.NewInTest" />
       <item itemvalue="TestNG.LandingPagePerformanceTest.landingPagePerformanceTest" />
-      <item itemvalue="TestNG.MenuImagesCheckTest.AccessoriesTest" />
+      <item itemvalue="TestNG.MenuImagesCheckTest.AccessoriesTest (1)" />
+      <item itemvalue="TestNG.MenuImagesCheckTest.JewelryTest" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LandingPagePerformanceTest.landingPagePerformanceTest" />
-        <item itemvalue="TestNG.MenuImagesCheckTest.AccessoriesTest" />
         <item itemvalue="TestNG.MenuImagesCheckTest" />
-        <item itemvalue="TestNG.MenuImagesCheckTest.NewInTest" />
+        <item itemvalue="TestNG.MenuImagesCheckTest.JewelryTest" />
+        <item itemvalue="TestNG.MenuImagesCheckTest.AccessoriesTest (1)" />
         <item itemvalue="TestNG.ItemCheckoutAsGuestTest" />
+        <item itemvalue="TestNG.LandingPagePerformanceTest.landingPagePerformanceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -486,42 +509,41 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 02h 27m 59s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_AccessoriesTest_(1) - 2020.01.14 at 22h 13m 01s.xml">
+      <configuration name="MenuImagesCheckTest.AccessoriesTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 02h 30m 02s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_AccessoriesTest_(1) - 2020.01.14 at 22h 16m 48s.xml">
+      <configuration name="MenuImagesCheckTest.AccessoriesTest (1)" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 29m 16s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest - 2020.01.14 at 22h 17m 41s.xml">
+      <configuration name="MenuImagesCheckTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="MenuImagesCheckTest_AccessoriesTest - 2019.12.17 at 23h 31m 11s.xml">
-      <configuration name="MenuImagesCheckTest.AccessoriesTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_JewelryTest - 2020.01.14 at 22h 18m 11s.xml">
+      <configuration name="MenuImagesCheckTest.JewelryTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 33m 42s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_JewelryTest - 2020.01.14 at 22h 24m 07s.xml">
+      <configuration name="MenuImagesCheckTest.JewelryTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 36m 07s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_JewelryTest - 2020.01.14 at 22h 24m 37s.xml">
+      <configuration name="MenuImagesCheckTest.JewelryTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 38m 49s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_JewelryTest - 2020.01.14 at 22h 32m 29s.xml">
+      <configuration name="MenuImagesCheckTest.JewelryTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 40m 43s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_JewelryTest - 2020.01.14 at 22h 36m 47s.xml">
+      <configuration name="MenuImagesCheckTest.JewelryTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 41m 57s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest_JewelryTest - 2020.01.14 at 22h 39m 57s.xml">
+      <configuration name="MenuImagesCheckTest.JewelryTest" configurationId="TestNG" />
     </history-entry>
-    <history-entry file="LandingPagePerformanceTest_landingPagePerformanceTest - 2019.12.17 at 23h 44m 21s.xml">
-      <configuration name="LandingPagePerformanceTest.landingPagePerformanceTest" configurationId="TestNG" />
+    <history-entry file="MenuImagesCheckTest - 2020.01.14 at 22h 44m 15s.xml">
+      <configuration name="MenuImagesCheckTest" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2746781" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27825466" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -530,8 +552,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.27228916" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" visible="true" weight="0.35301206" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32168674" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.35301206" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -603,55 +625,55 @@
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>83</line>
+          <line>84</line>
           <properties />
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>114</line>
+          <line>116</line>
           <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>176</line>
+          <line>180</line>
           <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>207</line>
+          <line>212</line>
           <properties />
           <option name="timeStamp" value="17" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>238</line>
+          <line>244</line>
           <properties />
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>269</line>
+          <line>276</line>
           <properties />
           <option name="timeStamp" value="19" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>300</line>
+          <line>308</line>
           <properties />
           <option name="timeStamp" value="20" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>331</line>
+          <line>340</line>
           <properties />
           <option name="timeStamp" value="21" />
         </line-breakpoint>
         <line-breakpoint type="java-line">
           <url>file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java</url>
-          <line>145</line>
+          <line>148</line>
           <properties />
           <option name="timeStamp" value="22" />
         </line-breakpoint>
@@ -690,6 +712,18 @@
   <component name="debuggerHistoryManager">
     <expressions id="evaluateCodeFragment">
       <expression>
+        <expression-string>driver.findElement(By.cssSelector(&quot;li.page-item.next&gt;a.page-link&quot;)).click();</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.openqa.selenium.By</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>driver.findElement(By.cssSelector(&quot;li.page-item.next&gt;a.page-link&quot;))</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>org.openqa.selenium.By</custom-info>
+        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
+      </expression>
+      <expression>
         <expression-string>webPerformancePage.startTest.submit();</expression-string>
         <language-id>JAVA</language-id>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -721,17 +755,6 @@
       </expression>
       <expression>
         <expression-string>((RemoteWebElement) itemsImg.get(0)).getId()</expression-string>
-        <language-id>JAVA</language-id>
-        <custom-info>org.openqa.selenium.remote.RemoteWebElement</custom-info>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>itemsImg.get(0)</expression-string>
-        <language-id>JAVA</language-id>
-        <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>((RemoteWebElement) el).getId()</expression-string>
         <language-id>JAVA</language-id>
         <custom-info>org.openqa.selenium.remote.RemoteWebElement</custom-info>
         <evaluation-mode>CODE_FRAGMENT</evaluation-mode>
@@ -859,17 +882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="22" selection-start-line="18" selection-end-line="18" selection-end-column="22" />
-          <folding>
-            <element signature="e#892#893#0" expanded="true" />
-            <element signature="e#967#968#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/BasePage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -884,16 +896,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/pages/ItemDetailsPage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -901,13 +903,6 @@
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="318">
-          <caret line="63" selection-start-line="63" selection-end-line="63" />
         </state>
       </provider>
     </entry>
@@ -925,9 +920,51 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="46" column="11" selection-start-line="46" selection-start-column="11" selection-end-line="46" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="35" column="23" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="35" />
           <folding>
-            <element signature="e#1831#1832#0" expanded="true" />
-            <element signature="e#1904#1905#0" expanded="true" />
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/testng/testng/7.0.0/testng-7.0.0.jar!/org/testng/internal/MethodInvocationHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="63" selection-start-line="63" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BasePerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest/LandingPagePerformanceTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/ItemCheckoutAsGuestTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="65" selection-start-line="65" selection-end-line="65" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#892#893#0" expanded="true" />
+            <element signature="e#967#968#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -939,57 +976,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1404">
-          <caret line="183" selection-start-line="183" selection-end-line="183" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BaseTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="35" column="23" lean-forward="true" selection-start-line="35" selection-start-column="8" selection-end-line="35" selection-end-column="35" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/helpers/MainHelpers.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="63" column="35" selection-start-line="63" selection-start-column="27" selection-end-line="63" selection-end-column="35" />
+        <state relative-caret-position="388">
+          <caret line="32" column="57" selection-start-line="32" selection-start-column="57" selection-end-line="32" selection-end-column="57" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/BasePerformanceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/pages/MenuItemsPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="267">
-          <caret line="42" column="63" selection-start-line="42" selection-start-column="63" selection-end-line="42" selection-end-column="63" />
+        <state relative-caret-position="171">
+          <caret line="12" column="31" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestHelpers/HelpMethods.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="184">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+          <caret line="38" column="23" selection-start-line="38" selection-start-column="23" selection-end-line="38" selection-end-column="23" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/PerformanceTest/LandingPagePerformanceTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/CriticalFlowsTest/MenuImagesCheckTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+        <state relative-caret-position="303">
+          <caret line="347" column="96" selection-start-line="347" selection-start-column="96" selection-end-line="347" selection-end-column="96" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

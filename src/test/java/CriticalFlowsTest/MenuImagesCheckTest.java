@@ -57,6 +57,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for New In items with bad Imanges are - " + result);
@@ -88,6 +89,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Clothing items with bad Imanges are - " + result);
@@ -119,6 +121,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Shoes items with bad Imanges are - " + result);
@@ -150,6 +153,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Bags items with bad Imanges are - " + result);
@@ -181,6 +185,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Accessories items with bad Imanges are - " + result);
@@ -212,6 +217,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Vintage items with bad Imanges are - " + result);
@@ -243,6 +249,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Jewelry items with bad Imanges are - " + result);
@@ -274,6 +281,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Watches items with bad Imanges are - " + result);
@@ -305,6 +313,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Home items with bad Imanges are - " + result);
@@ -336,6 +345,7 @@ public class MenuImagesCheckTest extends BaseTest {
             ) {
                 result += prodID + ", ";
             }
+            longWait.until(ExpectedConditions.elementToBeClickable(menuItemsPage.nextPageLink));
             clickElement(menuItemsPage.nextPage);
         }
         Assert.isTrue(result.isEmpty(), "ProductID list for Sale items with bad Imanges are - " + result);

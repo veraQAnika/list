@@ -10,7 +10,7 @@ public class MenuItemsPage {
     private static final String priceCSS = "span.current-price";
     private static final String itemsCSS = "li.isp_grid_product.quick";
     private static final String sortingCSS = "span#sorting_chosen_name";
-    public static final String nextPage = "li.page-item.next";
+    public static final String nextPage = "li.page-item.next>a.page-link";
     private static final String currencyDropDownCSS = "ul.dropdown.switcher-dropdown.ui-dialog-content.ui-widget-content";
     private static final String currencyCSS = "div#switcher-language-trigger-foote";
 
